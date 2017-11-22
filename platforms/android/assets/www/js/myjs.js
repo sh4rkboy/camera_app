@@ -3,7 +3,6 @@ init();
 });
 
 function init(){
-alert ("funciona");
 navigator.camera.getPicture(onSuccess, onFail, { quality: 50, destinationType: Camera.DestinationType.FILE_URI });
 
 
